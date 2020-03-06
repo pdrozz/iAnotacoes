@@ -5,7 +5,7 @@
 
 O aplicativo pega os dados digitados pelo usuário e o salva em um arquivo xml.
 
-<img src="https://user-images.githubusercontent.com/59422918/76123735-06360680-5fd8-11ea-8221-47f3bc4eb7ca.jpg" alt="alt text" width="300px" height="500px">
+<img src="https://user-images.githubusercontent.com/59422918/76123735-06360680-5fd8-11ea-8221-47f3bc4eb7ca.jpg" alt="alt text" width="360px" height="420px">
 
 
 ## Instalação
