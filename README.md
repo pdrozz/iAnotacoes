@@ -1,5 +1,5 @@
 # iAnotações
-> Este app serve para salvar anotações
+> Neste app é possível salvar anotações e textos
 
 
 
