@@ -9,18 +9,19 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="121dp"
         android:gravity="center"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="300dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/logo" />
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_main"/>
+    <include layout="@layout/content_main" />
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -29,6 +30,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:backgroundTint="#421F15"
+
         app:fabSize="normal"
         app:srcCompat="@drawable/ic_done" />
 
