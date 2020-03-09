@@ -1,6 +1,8 @@
 package com.pdrzz.minhasanotaes.fragment;
 
 
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -27,10 +29,13 @@ public class InicioFragment extends Fragment {
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     private List<AnotacoesModel> listAnotacoes=new ArrayList<>();
+    private SQLiteDatabase db;
 
     public InicioFragment() {
         // Required empty public constructor
     }
+
+
 
 
     @Override
@@ -41,7 +46,7 @@ public class InicioFragment extends Fragment {
 
         recyclerView=view.findViewById(R.id.recyclerInicio);
 
-        gerarListaTeste();
+gerarListaTeste();
         ListarAnotacoesAdapter adapter=new ListarAnotacoesAdapter(listAnotacoes);
 
         //adapter
@@ -56,6 +61,7 @@ public class InicioFragment extends Fragment {
 
         return view;
     }
+
 
     public void gerarListaTeste(){
         listAnotacoes.add(new AnotacoesModel("TESTE Aniversario","Aniversario no dia 23" +

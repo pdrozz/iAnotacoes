@@ -3,5 +3,12 @@
     <color name="colorPrimary">#462922</color>
     <color name="colorPrimaryDark">#311710</color>
     <color name="colorAccent">#D81B60</color>
+
+
+
+    <color name="white">#FFFFFF</color>
+
+
+
     <color name="cor_fundo_caixa_de_texto">#FAFFB2</color>
 </resources>

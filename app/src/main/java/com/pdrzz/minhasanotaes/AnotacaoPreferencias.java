@@ -19,6 +19,7 @@ public class AnotacaoPreferencias {
 
     public void salvar(String s){
         editor.putString(CHAVE_ANOTACAO,s);
+
         editor.commit();
     }
 

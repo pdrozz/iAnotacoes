@@ -48,7 +48,7 @@ public class ListarAnotacoesAdapter extends RecyclerView.Adapter<ListarAnotacoes
     @Override
     public void onBindViewHolder(@NonNull MeuViewHolder holder, int position) {
         AnotacoesModel model=listaAnotacoes.get(position);
-        holder.titulo.setText(model.getTitulo());
+        holder.titulo.setText(model.getTitulo()+position);
         holder.resumo.setText(model.getResumo());
         holder.data.setText(model.getData());
     }
